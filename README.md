@@ -3,14 +3,14 @@
 ## Developing
 
 - Run `npm install` in this directory
-- Make sure you have [Heroku Toolbelt](https://toolbelt.heroku.com/) installed
 - Create your `.env` file with your environment variables 
-- Run `foreman start`
+- Set up an account on dev.evernote.com
+- Obtain api key
+- Run `node app.js` in this directory.
 
 ## Deploying
 
-- Set up an account on dev.evernote.com
-- Obtain api key
+- Make sure you have [Heroku Toolbelt](https://toolbelt.heroku.com/) installed
 - In this app directory, run `heroku create` to make a new Heroku app
 - Set Heroku's config variables for your new app:
 
