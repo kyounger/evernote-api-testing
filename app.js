@@ -1,9 +1,7 @@
 // Create a file called `.env`
 // Add the following lines to that file:
-EN_CONSUMER_KEY=xxxxxx
-EN_CONSUMER_SECRET=xxxxxx
-SANDBOX=true
-AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//SANDBOX=true
+//AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 var express = require('express');
 var Evernote = require('evernote').Evernote;
