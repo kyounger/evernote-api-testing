@@ -1,0 +1,18 @@
+{
+  "name": "evernote-heroku",
+  "version": "0.1.0",
+  "description": "Syncs evernote checkboxes to a single @context page",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "evernote": "^1.25.3",
+    "express": "~4.9.x",
+    "restler": "3.x.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
